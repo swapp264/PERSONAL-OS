@@ -10,6 +10,10 @@ export default defineConfig(() => {
       alias: {
         '@': path.resolve('.'),
       },
+      dedupe: ['react', 'react-dom', 'react-is'],
+    },
+    optimizeDeps: {
+      include: ['recharts', 'react-is', 'dexie'],
     },
     server: {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
