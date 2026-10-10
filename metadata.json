@@ -1,0 +1,6 @@
+{
+  "name": "PERSONAL OS",
+  "description": "Private, local-first personal command center for hybrid athlete training, daily planning, habits, nutrition, skills, journaling, finances, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
